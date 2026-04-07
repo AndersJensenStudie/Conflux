@@ -1,4 +1,4 @@
-# Server
+# Conflux
 A simple server for static HTML-pages, written entirely in Flix
 
 # TODO

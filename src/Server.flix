@@ -56,7 +56,8 @@ mod Server {
         region rc {
             Logger.debug("Reading from buffer");
             let reader = BufReader.withCapacity(rc, 2048, socket);
-            let res = Result.getOrAbort(Peekable.readWhile(c -> c != 10i8, reader));
+            let newlineChar = 10i8;
+            let res = Result.getOrAbort(Peekable.readWhile(c -> c != newlineChar, reader));
             String.fromBytes(res)
         }
         
