@@ -1,6 +1,6 @@
 [package]
-name        = "server"
-description = "test"
+name        = "Conflux"
+description = "Flix-native HTTP-server"
 version     = "0.1.0"
 flix        = "0.71.0"
-authors     = ["John Doe <john@example.com>"]
+authors     = ["Anders Jensen <anders.jensen.studie@gmail.com>"]

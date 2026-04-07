@@ -1,5 +1,5 @@
 # Conflux
-A simple server for static HTML-pages, written entirely in Flix
+A simple server for static HTML-pages, written entirely in Flix. Artisanally coded by hand :)
 
 # TODO
 - [x] Better read-parser. Should read until it sees /r/n/r/n and not just 4096 bytes.
